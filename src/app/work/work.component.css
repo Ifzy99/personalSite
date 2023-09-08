@@ -1,0 +1,36 @@
+
+#letWrk{
+    min-height: 20vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.letWrkHeader{
+    text-align: center;
+}
+.letWrkHeader h3{
+    font-size: 2rem;
+}
+.letWrkHeader p{
+    letter-spacing: 2px;
+    margin: 10px 0;
+    font-size: 0.8rem;
+}
+.letWrkContent{
+    text-align: center;
+     margin: 5rem 0;
+    padding-bottom: 2rem;
+}
+a{
+    border: none;
+    border-radius: 5px;
+    padding: 13px 4rem;
+    margin: 5px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    background-color: rgb(198, 124, 137);
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    background-color:rgb(71, 163, 71);
+    color: #fff;
+}

@@ -1,0 +1,40 @@
+
+#about{
+    background-color: #100e0eec;
+    min-height: 50vh;
+    color: #fff;
+    width: 100%;
+}
+
+.aboutHeader{
+    text-align: center;
+    padding: 3rem 0;
+}
+.aboutHeader p{
+    margin: 10px 0;
+    letter-spacing: 3px;
+    color:#89a6a6;
+}
+.aboutTxt{
+    display: flex;
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+}
+.aboutTxt p{
+   margin: 0 20px;
+   font-size: 0.8rem;
+   line-height: 1.5rem;
+   letter-spacing: 2px;
+}
+
+
+
+@media (max-width: 768px){
+    .aboutTxt{
+        flex-direction: column;
+    }
+    .aboutTxt p{
+        margin:20px 0;
+    }
+}

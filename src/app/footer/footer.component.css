@@ -1,0 +1,50 @@
+a{
+    color: #fff;
+}
+ul{
+    padding: unset;
+}
+li{
+    list-style: none;
+    font-size: 0.8rem;
+    margin: 5px 0;
+}
+#footer{
+    background-color: rgba(26, 26, 72, 0.943);
+    min-height: 20vh;
+    color: #fff;
+}
+.fContent{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.fBdy{
+   flex-basis: 25%;
+   padding: 3rem 0;
+}
+.fBdy h6{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.locale p{
+  margin: 10px 0;
+}
+.socials{
+    display: flex;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+.copyR{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width:768px){
+    .fContent{
+        flex-direction: column;
+    }
+    
+}
