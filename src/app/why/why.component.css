@@ -64,11 +64,14 @@ img{
         text-align: justify;
         width: 90%;
     }
+    .whyImg{
+        width: 100%;
+    }
     .whyTxt p{
         font-size: 0.8rem;
     }
     img{
-        width: 150px;
+        width: 100px;
     }
     .imgContent{
         width: 100%;
