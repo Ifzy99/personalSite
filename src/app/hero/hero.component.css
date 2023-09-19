@@ -28,7 +28,7 @@ h1{
 
 @media (max-width: 768px){
     .heroPg{
-        min-height: 50vh;
+        min-height: 40vh;
         opacity: 60%;
         width: 100%;
     }
@@ -36,11 +36,12 @@ h1{
         padding: 9% 0;
     }
     h1{
-        font-size: 2.5rem;  
+        font-size: 2rem;  
     }
     p{
         width: 80%;
         margin: 0 auto;
+        font-size: 1rem;
     }
     
 }
