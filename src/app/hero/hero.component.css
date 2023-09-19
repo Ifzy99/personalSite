@@ -12,19 +12,18 @@
     padding: 16% 0;
     letter-spacing: 5px;
 }
+h6{
+    color: #89a6a6;
+    font-size: 1rem;
+
+}
 h1{
    font-family: 'Times New Roman', Times, serif;
    font-size: 3.5rem;
     color: gold;
     line-height: 1.5;
 }
-  h1::before {
-    content: "FREELANCE";
-    display: block;
-    color:#fff;
-    font-size: 1rem;
-    font-weight: normal;
-}
+
 
 @media (max-width: 768px){
     .heroPg{
@@ -41,7 +40,7 @@ h1{
     p{
         width: 80%;
         margin: 0 auto;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     
 }
